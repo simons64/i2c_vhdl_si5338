@@ -1,15 +1,15 @@
 # Si5338 Registers Script
 # 
 # Part: Si5338
-# Project File: C:\Users\x395\Desktop\Si5338_config\Si5338-RevB-Project.slabtimeproj
+# Project File: C:\Users\x395\Desktop\i2c_vhdl_si5338\Trenz_Custom_Config\Si5338-RevB-Project.slabtimeproj
 # Bits 6:0 in addr 27d/0x1B will be 0 always
 # Creator: ClockBuilder Pro v4.17 [2025-11-06]
-# Created On: 2025-11-15 23:30:25 GMT+01:00
+# Created On: 2025-11-16 23:17:16 GMT+01:00
 # Address,Data
 6,08h
 27,00h
-28,16h
-29,90h
+28,0Bh
+29,08h
 30,B0h
 31,C0h
 32,C0h
@@ -17,7 +17,7 @@
 34,C0h
 35,A2h
 36,06h
-37,13h
+37,03h
 38,06h
 39,06h
 40,E4h
@@ -26,12 +26,12 @@
 45,00h
 46,00h
 47,14h
-48,3Ah
-49,00h
-50,C4h
+48,2Fh
+49,10h
+50,C5h
 51,07h
 52,10h
-53,80h
+53,00h
 54,0Ah
 55,00h
 56,00h
@@ -43,7 +43,7 @@
 62,00h
 63,10h
 64,00h
-65,17h
+65,16h
 66,00h
 67,00h
 68,00h
@@ -54,7 +54,7 @@
 73,00h
 74,10h
 75,00h
-76,08h
+76,06h
 77,00h
 78,00h
 79,00h
@@ -65,7 +65,7 @@
 84,00h
 85,10h
 86,00h
-87,17h
+87,16h
 88,00h
 89,00h
 90,00h
@@ -75,7 +75,7 @@
 94,00h
 95,00h
 97,00h
-98,30h
+98,2Eh
 99,00h
 100,00h
 101,00h
