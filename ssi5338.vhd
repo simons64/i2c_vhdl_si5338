@@ -237,9 +237,10 @@ mem_si5338_inst : Si5338_init_bram
 
 si5338_proc : process (clk)
     variable busy_cnt : integer range 0 to 255;
-	 variable reg_addr : std_logic_vector(7 downto 0);
-	 variable reg_val  : std_logic_vector(7 downto 0);
-	 variable reg_mask : std_logic_vector(7 downto 0);
+	variable reg_addr : std_logic_vector(7 downto 0);
+	variable reg_val  : std_logic_vector(7 downto 0);
+	variable reg_mask : std_logic_vector(7 downto 0);
+	
 	begin    	
 		if( rising_edge(clk) ) then
 			if( internal_reset = '1' ) then

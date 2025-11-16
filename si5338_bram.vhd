@@ -35,7 +35,7 @@ entity Si5338_init_bram is
     regData : out STD_LOGIC_VECTOR(7 downto 0); -- register data for Si5338
     regMask : out STD_LOGIC_VECTOR(7 downto 0); -- register mask for Si5338
     regAddr : out STD_LOGIC_VECTOR(7 downto 0); -- register address for SI5338
-    --
+
     bram_entries : out STD_LOGIC_VECTOR(9 downto 0) -- Number of entries in BRAM for transaction counter
   );
 end Si5338_init_bram;
